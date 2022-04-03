@@ -8,7 +8,7 @@ module ApplicationPost
   class Application < Rails::Application
     config.load_defaults 6.0
 
-    config.time_zone = 'Abidjan'
+    config.time_zone = 'Africa/Abidjan'
     config.active_record.default_timezone = :local
 
   end
